@@ -169,3 +169,105 @@ header nav .bar {
 .about-container .about-content {
   text-align: center;
 }
+.about-content h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.about-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 80px;
+  line-height: 20px;
+}
+
+.about-content hr {
+  border: 00.001px solid #ffffff2d;
+  margin-bottom: 80px;
+}
+
+.about-rating-container {
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.about-rating-container .about-rating-part {
+  text-align: center;
+}
+
+.about-rating-part h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #00ff88;
+  margin-bottom: 1rem;
+}
+
+.about-rating-part p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.choose-techwave-section {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #230e3d;
+}
+
+.TechWave-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0px;
+}
+
+.techwave-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.techwave-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.content {
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+}
+
+.content-padding {
+  padding: 40px;
+}
+
+.content-1 {
+  grid-row: span 2;
+}
+
+.content-2 {
+  grid-column: span 2;
+}
+
+.content-3 {
+  grid-column: span 2;
+}
+
+.content-4 {
+  grid-column: span 2;
+}
+
+.content-5 {
+  grid-column: span 1;
+}
+
+.featured-section {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #1a0b2e;
+}
