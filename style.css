@@ -87,6 +87,21 @@ header ul li a {
 header nav .bar {
   display: none;
 }
+.hero-section {
+  background-image: url('./image/hero-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero-container {
+  flex-direction: column;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 101px 0px;
+}
+
+
 .hero-circle {
   justify-content: center;
   align-items: center;
@@ -454,6 +469,9 @@ footer {
   .hero-circle {
     top: -100px;
   }
+  .hero-container{
+    /* height: 466px; */
+  }
 
   .hero-circle img {
     width: 40%;
@@ -469,4 +487,75 @@ footer {
   .challenge-btn {
     position: absolute;
     z-index: 10;
+    margin-top: 170px;
+    margin-left: -40px;
+    
   }
+  
+  .section-heading {
+    padding: 5px;
+  }
+
+  .about-container .about-content {
+    padding: 20px;
+  }
+
+  .about-rating-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .techwave-1 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .techwave-2 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .card {
+    padding-left: 25px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    display: flex;
+    justify-items: center;
+    gap: 100px;
+  }
+
+  .card-content {
+    padding: 5px;
+  }
+
+  .host-container {
+    text-align: center;
+    gap: 24px;
+
+    grid-template-areas:
+      'host'
+      'content';
+  }
+
+  .host-content ul {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-container ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+}
+
+}
+
+
+
